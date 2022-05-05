@@ -1,7 +1,10 @@
 # Victor Piña Anzures 🍍
+|Repository|Netlify Build|Vercel Build|
+|---|---|---|
+| [Portfolio](https://github.com/AmerikeVPA/Portfolio_Astro) | [VPanzu Netlify](https://vpanzu-portfolio.netlify.app/) | [VPanzu Vercel](https://portfolio-astro.vercel.app/) |
+
 |||
 |---|---|
-| [Portfolio repository](https://github.com/AmerikeVPA/Portfolio_Astro) | [Portfolio](https://vpanzu-portfolio.netlify.app/) |
 | [Gmail](vicpanzu7@gmail.com) | ![Pic](Media/Vic_Pic.JPG) |
 ### Comandos para inicializar git remoto
 
