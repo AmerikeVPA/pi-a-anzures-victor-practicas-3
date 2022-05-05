@@ -1,6 +1,8 @@
 # Victor Piña Anzures 🍍
-| [Gmail](vicpanzu7@gmail.com) | ![Pic](Media/Vic_Pic.JPG)
-
+|||
+|---|---|
+| [Portfolio repository](https://github.com/AmerikeVPA/Portfolio_Astro) | [Portfolio](https://vpanzu-portfolio.netlify.app/) |
+| [Gmail](vicpanzu7@gmail.com) | ![Pic](Media/Vic_Pic.JPG) |
 ### Comandos para inicializar git remoto
 
 
