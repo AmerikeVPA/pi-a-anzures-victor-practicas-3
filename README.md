@@ -1,7 +1,7 @@
 # Victor Piña Anzures 🍍
 |Repository|Netlify Build|Vercel Build|
 |---|---|---|
-| [Portfolio](https://github.com/AmerikeVPA/Portfolio_Astro) | [VPanzu Netlify](https://vpanzu-portfolio.netlify.app/) | [VPanzu Vercel](https://portfolio-astro.vercel.app/) |
+| [Portfolio](https://github.com/AmerikeVPA/Portfolio_Astro) | [VPanzu Netlify](https://vpanzu-portfolio.netlify.app/) | [VPanzu Vercel](https://vpanzu-portfolio.vercel.app/) |
 
 |||
 |---|---|
