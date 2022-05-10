@@ -2,6 +2,6 @@
 
 |Entity|Attributes|Relation|
 |---|---|---|
-|Game|- id -|Third|
+|Game|- name - link|Third|
 |User|Second|Third|
 |Comment|Second|Third|
