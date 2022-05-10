@@ -1,8 +1,7 @@
 # Data base conceptualization
 
-## Entities
-
-|Name|Function|Relation|
+|Entity|Attributes|Relation|
 |---|---|---|
-|First|Second|Third|
-
+|Game|- id -|Third|
+|User|Second|Third|
+|Comment|Second|Third|
