@@ -9,4 +9,4 @@
 
 </br>
 
-[DB Flowchart](Media/Diagrama_DB.png)
+![DB Flowchart](Media/Diagrama_DB.png)
