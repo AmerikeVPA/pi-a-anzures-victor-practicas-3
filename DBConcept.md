@@ -10,3 +10,4 @@
 </br>
 
 ![DB Flowchart](Media/Diagrama_DB.png)
+[DB Table](./DB_Entities.xlsx)
