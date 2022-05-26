@@ -25,7 +25,7 @@ CREATE TABLE Games(
 ) ENGINE = InnoDB DEFAULT CHARSET = utf8mb4;
 
 CREATE TABLE Users(
-    user_id VARCHAR(50) UNSIGNED PRIMARY KEY,
+    user_id VARCHAR(50) PRIMARY KEY,
     user_email VARCHAR(50) UNIQUE NOT NULL,
     age_range ENUM('4-10', '10-18', '+18'),
     user_disability INTEGER UNSIGNED,
@@ -44,7 +44,7 @@ CREATE TABLE Comments(
     FOREIGN KEY(game_id_c)
      REFERENCES Games(game_id)
      ON DELETE RESTRICT
-     ON UPDATE CASCADE
+     ON UPDATE CASCADE,
     FOREIGN KEY(user_id_c)
      REFERENCES Users(user_id)
      ON DELETE RESTRICT
@@ -59,7 +59,7 @@ CREATE TABLE Likes(
     FOREIGN KEY(game_id_l)
      REFERENCES Games(game_id)
      ON DELETE RESTRICT
-     ON UPDATE CASCADE
+     ON UPDATE CASCADE,
     FOREIGN KEY(user_id_l)
      REFERENCES Users(user_id)
      ON DELETE RESTRICT

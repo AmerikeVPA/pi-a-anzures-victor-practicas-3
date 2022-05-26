@@ -1,7 +1,7 @@
 # Vic Pine Games | Business logic
 ---
 ## Glosario
----
+
 - **PK** - _Primary Key_
 - **FK** - _Foreign Key_
 - **UQ** - _Unique_
@@ -9,9 +9,9 @@
 - **1 - 1** - _One to One_
 - **1 - M** - _One to Many_
 - **M - M** - _Many to Many_
-
-## Entity - Relation Model
 ---
+## Entity - Relation Model
+
 ### Entities
 
 1. Games
@@ -99,13 +99,13 @@
 - Acquired brain injury
 - Autism Spectrum Disorder
 - Physical disability
-
+---
 ## Relational Model
----
-![DB Flowchart](Media/Diagrama_DB.png)
 
-## Business Rules
+![DB Flowchart](Media/Diagrama_DB.png)
 ---
+## Business Rules
+
 ### Games
 
 1. Create _Game_ 
@@ -153,7 +153,7 @@
 1. Read a _Disability_
 1. Update a _Disability_
 1. Delete _Disability_
-
-## Data Run
 ---
+## Data Run
+
 [DB Data Run Sheet](DB_Entities.xlsx)
