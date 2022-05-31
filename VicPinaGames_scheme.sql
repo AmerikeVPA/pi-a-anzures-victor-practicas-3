@@ -17,10 +17,10 @@ CREATE TABLE Disabilities(
 CREATE TABLE Games(
     game_id INTEGER UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     game_title VARCHAR(255) UNIQUE NOT NULL,
-    download_link VARCHAR(255) UNIQUE,
     release_date DATE NOT NULL,
-    game_description TEXT NOT NULL,
-    game_genre VARCHAR (255) NOT NULL,
+    download_link VARCHAR(255) UNIQUE,
+    game_description TEXT,
+    game_genre VARCHAR (255),
     trailer VARCHAR(255)
 ) ENGINE = InnoDB DEFAULT CHARSET = utf8mb4;
 
