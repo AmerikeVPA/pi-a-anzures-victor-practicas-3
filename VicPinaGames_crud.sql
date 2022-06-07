@@ -47,3 +47,9 @@ INSERT INTO Comments (comment_date, comment_body, game_id_c, user_id_c) VALUES
 INSERT INTO Likes (like_date, game_id_l, user_id_l) VALUES
 (Now(), 1, 'GameTester_01'),
 (Now(), 0, 'GameTester_01');
+
+/* Delete a like from a post */
+
+DELETE FROM Likes
+  WHERE like_id = 2
+    AND user = 'GameTester_01';
