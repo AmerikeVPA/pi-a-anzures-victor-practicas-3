@@ -7,7 +7,7 @@ INSERT INTO Genres (genre_name) VALUES
 ("Puzzle"), ("Horror"), ("Action"), 
 ("Mobile"), ("Boardgame"), ("Experimental");
 
-INSERT INTO Disabilities (disabilty_name) VALUES 
+INSERT INTO Disabilities (disability_name) VALUES 
 ("None"), ("Visual impairment / Blindness"), 
 ("Hard of heareing / Deafness"), ("Mental health condition"), 
 ("Intellectual disability"), ("Acquired brain injury"), 
@@ -16,9 +16,9 @@ INSERT INTO Disabilities (disabilty_name) VALUES
 /* Create game */
 
 INSERT INTO Games (game_title,  release_date) VALUES
-(("Underwater VR"), TO_DATE('08/05/2021')),
-(("OverLay"), TO_DATE('09/05/2020')),
-(("Re-GUM"), TO_DATE('02/02/2020'));
+(("Underwater VR"), ('2021-05-08')),
+(("OverLay"), ('2020-05-09')),
+(("Re-GUM"), ('2020-02-02'));
 
 /* Edit game attributes*/
 
@@ -27,14 +27,14 @@ UPDATE Games
     download_link = 'https://vicpdj.itch.io/underwater-vr',
     game_description = "Collect all the treasures in an spacius reef with colourful fauna and flora! /n 
         Immerse yourself in the depths of a submarine cavern and find its natural riches!",
-    game_genre = "1 2"
+    game_genre = "1,2",
     trailer = "https://www.youtube.com/watch?v=qFg5FEWU9Uk&feature=youtu.be", 
   WHERE game_title = "Underwater VR";
 
 /* Create user */
 
 INSERT INTO Users (user_id, user_email, age_range, user_disability) VALUES
-('GameTester_01', 'cdmx2344@amerike.edu.mx', "+18", 0);
+('GameTester_01', 'cdmx2344@amerike.edu.mx', "+18", 1);
 
 /* Create comment */
 
